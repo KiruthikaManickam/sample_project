@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.navbar {
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: black 1px solid;
+    position:sticky;
+    gap: 20px;
+    align-items: center;
+    top:0px;
+    background-color: white;
+  z-index:2;
+
+}
+
+.navbar__sec1--title {
+    color: rgba(139, 39, 189, 0.681);
+}
+
+.navbar__sec2 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: solid purple 2px;
+    border-radius: 30px;
+    width: 50%;
+    position:sticky;
+}
+
+.navbar__sec2 input {
+   
+  border:none;
+  width:100%;
+}
+
+.navbar__sec2 input:focus {
+   
+   outline:none;
+  }
+
+.navbar__sec3 {
+   display: flex;
+   gap: 15px;
+
+}
+
+.categories {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: solid black 1px;
+    
+
+} 
+
+.categories_p {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recommand{
+    position:sticky;
+    top:0px;
+}
+
+.recommanded_title{
+    padding: 10px;
+   
+}
+.containers{
+    padding:10px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.course-card{
+    
+    
+    border-radius: 20px;
+    width:250px;
+    padding: 10px;
+}
+.course-card img{
+    
+    height:200px;
+    width:250px;
+       
+}
+.topics{
+    padding: 10px;
+}
+.topics_container{
+    background-color: aqua;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+topics_container p{
+   
+    padding:10px;
+    flex-grow: 1;
+   
+}
+.popular{
+padding: 10px;
+
+
+
+}
+.popular_container{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    display:flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+.footer_sec1
+{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    gap: 200px;
+}
+.footer_sec2
+{
+    display: flex;
+    justify-content: space-between ;
+}
+.topic{
+    padding:10px;
+}
+.topic_container{
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap:10px;
+    
+}
+.topic_container p{
+    border:solid 2px black;
+    height: 30px;
+    text-align: center;
+    flex-basis: 20%;
+}
+.imag_s{
+    position:relative;
+    
+}
+.flash_sale
+{
+position:absolute;
+background-color: white;
+padding:20px;
+border-radius: 20px;
+left:10px;   
+bottom:10px;
+}
